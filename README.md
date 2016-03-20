@@ -10,13 +10,13 @@ For The content go to the content folder and change the index.md
 #This is an example 
 
 ---
-Title: Welcome
-Description: This is Identity, Just a fun little profile/card-style template.
-SocialIcon1: linkedin
-SocialLink1: http://tn.linkedin.com/in/MohamedSafouanBesrour
-SocialIcon2: github
-SocialLink2: https://github.com/BesrourMS
-SocialIcon3: bitcoin
+Title: Welcome<br />
+Description: This is Identity, Just a fun little profile/card-style template.<br />
+SocialIcon1: linkedin<br />
+SocialLink1: http://tn.linkedin.com/in/MohamedSafouanBesrour<br />
+SocialIcon2: github<br />
+SocialLink2: https://github.com/BesrourMS<br />
+SocialIcon3: bitcoin<br />
 SocialLink3: bitcoin:1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit
 ---
 
