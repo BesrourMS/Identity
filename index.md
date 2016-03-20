@@ -1,6 +1,6 @@
 ---
 Title: Welcome
-Description: This is MegaWeb, a web resource repository.<br />We are currently working on something awesome. Stay tuned!
+Description: This is Identity, Just a fun little profile/card-style template.
 SocialIcon1: linkedin
 SocialLink1: http://tn.linkedin.com/in/MohamedSafouanBesrour
 SocialIcon2: github
