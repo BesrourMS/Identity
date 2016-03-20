@@ -17,7 +17,7 @@ SocialLink1: http://tn.linkedin.com/in/MohamedSafouanBesrour<br />
 SocialIcon2: github<br />
 SocialLink2: https://github.com/BesrourMS<br />
 SocialIcon3: bitcoin<br />
-SocialLink3: bitcoin:1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit
+SocialLink3: bitcoin:1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit<br />
 ---
 For Social Icon we use Font Awesome.
 
