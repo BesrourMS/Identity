@@ -5,7 +5,7 @@ Download the identity folder, upload it in the themes folder of your pico instal
 
 $config['theme'] = 'identity';
 
-For The content go to the content folder and change the index.md
+For The content go to the content folder and change the index.md Or download our index.md
 
 #This is an example 
 
@@ -22,7 +22,7 @@ SocialLink3: bitcoin:1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit<br />
 For Social Icon we use Font Awesome.
 
 For Your Image you can download your profile picture in images folder in theme folder with the same name : "avatar.jpg" or you can use the meta Image in the index.md :
-Image: http;//yoursitr.com/yourpicture.jpg
+Image: http://yoursite.com/yourpicture.jpg
 
 For The Background change the "bg.jpg" in the folder images in the theme folder
 Recommanded Size : avatar.jpg => 122x122 px | bg.jpg 1440x900 px
