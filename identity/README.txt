@@ -4,7 +4,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 Identity Pico CMS Theme Powered By Mohamed Safouan Besrour
 
-Custom Meta For This Theme
 
 
 
