@@ -5,20 +5,7 @@ Download the identity folder, upload it in the themes folder of your pico instal
 
 $config['theme'] = 'identity';
 
-For The content go to the content folder and change the index.md Or download our index.md
-
-#This is an example 
-
----
-Title: Welcome<br />
-Description: This is Identity, Just a fun little profile/card-style template.<br />
-SocialIcon1: linkedin<br />
-SocialLink1: http://tn.linkedin.com/in/MohamedSafouanBesrour<br />
-SocialIcon2: github<br />
-SocialLink2: https://github.com/BesrourMS<br />
-SocialIcon3: bitcoin<br />
-SocialLink3: bitcoin:1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit
----
+For The content  download our index.md, upload it in the content folder and make your change.
 
 For Social Icon we use Font Awesome.
 
