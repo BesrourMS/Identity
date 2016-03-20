@@ -19,6 +19,7 @@ SocialLink2: https://github.com/BesrourMS<br />
 SocialIcon3: bitcoin<br />
 SocialLink3: bitcoin:1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit<br />
 ---
+
 For Social Icon we use Font Awesome.
 
 For Your Image you can download your profile picture in images folder in theme folder with the same name : "avatar.jpg" or you can use the meta Image in the index.md :
