@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+		<meta name="description" content="{{ meta.description|striptags }}">
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ theme_url }}/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ theme_url }}/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ theme_url }}/assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="{{ theme_url }}/assets/css/noscript.css" /></noscript>
+		<script type="application/ld+json">
+		{
+		  "@context" : "http://schema.org",
+		  "@type" : "WebSite",
+		  "name" : "{{ site_title }}",
+		  "url" : "{{ base_url }}"
+		}
+		</script>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="{% if meta.image %}{{ meta.image }}{% else %}{{ theme_url }}/images/avatar.jpg{% endif %}" alt="{{ site_title }}" /></span>
+							<h1>{{ site_title }}</h1>
+							<p>{{ meta.description }}</p>
+						</header>
+						
+						<footer>
+							<ul class="icons">
+								<li><a href="{{ meta.sociallink1 }}" class="fa-{{ meta.socialicon1 }}">{{ meta.socialicon1 }}</a></li>
+								<li><a href="{{ meta.sociallink2 }}" class="fa-{{ meta.socialicon2 }}">{{ meta.socialicon2 }}</a></li>
+								<li><a href="{{ meta.sociallink3 }}" class="fa-{{ meta.socialicon3 }}">{{ meta.socialicon3 }}</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; {{ site_title }}</li>
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a> | Powered By : <a href="http://besrourms.github.io">Mohamed Safouan Besrour</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="{{ theme_url }}/assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+	</body>
+</html>
