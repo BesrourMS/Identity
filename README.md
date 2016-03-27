@@ -15,6 +15,8 @@ Image: http://yoursite.com/yourpicture.jpg
 For The Background change the "bg.jpg" in the folder images with your background image.<br />
 Recommanded Size : <br />avatar.jpg => 122x122 px | bg.jpg 1440x900 px
 
+####Demo : http://html5up.net/uploads/demos/identity/
+
 ##Screenshot
 
 <img src="http://img15.hostingpics.net/pics/363213identityscreenshot.jpg" alt="Identity Screenshot" />
