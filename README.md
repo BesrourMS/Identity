@@ -35,4 +35,4 @@ Recommended Sizes:
 
 ## Screenshot
 
-[Identity Screenshot](http://img15.hostingpics.net/pics/363213identityscreenshot.jpg)
+![Identity Screenshot](http://img15.hostingpics.net/pics/363213identityscreenshot.jpg)
