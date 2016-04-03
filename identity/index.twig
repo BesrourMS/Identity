@@ -36,12 +36,12 @@
 							<h1>{{ site_title }}</h1>
 							<p>{{ meta.description }}</p>
 						</header>
-						
+
 						<footer>
 							<ul class="icons">
-								<li><a href="{{ meta.sociallink1 }}" class="fa-{{ meta.socialicon1 }}">{{ meta.socialicon1 }}</a></li>
-								<li><a href="{{ meta.sociallink2 }}" class="fa-{{ meta.socialicon2 }}">{{ meta.socialicon2 }}</a></li>
-								<li><a href="{{ meta.sociallink3 }}" class="fa-{{ meta.socialicon3 }}">{{ meta.socialicon3 }}</a></li>
+								{% for link,icon in meta.social %}
+									<li><a href="{{ link }}" class="fa-{{ icon }}">{{ icon }}</a></li>
+								{% endfor %}
 							</ul>
 						</footer>
 					</section>
