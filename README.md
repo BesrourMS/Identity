@@ -1,22 +1,38 @@
 # Identity
 HTML5UP Identity Template For Pico CMS
 
-Download the identity folder, upload it in the themes folder of your pico installation and change the following setting within your config.php:
+Download the identity folder, extract it to the themes folder of your Pico installation, and change the following setting within your config.php:
 
-$config['theme'] = 'identity';
+`$config['theme'] = 'identity';`
 
-For The content  download our index.md, upload it in the content folder and make your change.
+For the content download our `index.md`, upload it in the content folder and make your changes.
 
-For Social Icon we use Font Awesome.
+You can add as many social icons as you want using the follow syntax:
 
-For Your Image you can download your profile picture in images folder in theme folder with the same name : "avatar.jpg" or you can use the meta Image in the index.md :
-Image: http://yoursite.com/yourpicture.jpg
+```
+Social:
+  http://tn.linkedin.com/in/MohamedSafouanBesrour: linkedin
+  https://github.com/BesrourMS: github
+  url: icon
+```
 
-For The Background change the "bg.jpg" in the folder images with your background image.<br />
-Recommanded Size : <br />avatar.jpg => 122x122 px | bg.jpg 1440x900 px
+(Make sure to use spaces for indentation and not tabs!)
 
-####Demo : http://html5up.net/uploads/demos/identity/
+For the Social Icons we use [Font Awesome](https://fortawesome.github.io/Font-Awesome/).  You can find a list of all available icons [here](https://fortawesome.github.io/Font-Awesome/icons/).
 
-##Screenshot
+For your Avatar Image, you can add an image to your site and specify its path using the meta Image variable in the index.md:
+`Image: assets/avatar.jpg`
 
-<img src="http://img15.hostingpics.net/pics/363213identityscreenshot.jpg" alt="Identity Screenshot" />
+([Pico recommends](http://picocms.org/docs/#creating-content) placing images inside an "assets" folder!)
+
+For the Background replace the `bg.jpg` in Identity's `images` folder with your own background image.
+
+Recommended Sizes:
+
+`avatar.jpg => 122x122 px | bg.jpg 1440x900 px`
+
+#### Demo: http://html5up.net/uploads/demos/identity/
+
+## Screenshot
+
+![Identity Screenshot](http://img15.hostingpics.net/pics/363213identityscreenshot.jpg)
