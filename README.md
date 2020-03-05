@@ -1,9 +1,15 @@
 # Identity
 HTML5UP Identity Template For Pico CMS
 
-Download the identity folder, extract it to the themes folder of your Pico installation, and change the following setting within your config.php:
+Download the identity folder, extract it to the themes folder of your Pico installation, and change the following setting within your config.php for Pico CMS Version < 2.0 :
 
 `$config['theme'] = 'identity';`
+
+For Pico CMS >= 2.0 add to config/config.yml
+
+`theme: identity`
+
+(If the file does not excist, create it. For more info see config/config.yml.template)
 
 For the content download our `index.md`, upload it in the content folder and make your changes.
 
@@ -32,7 +38,3 @@ Recommended Sizes:
 `avatar.jpg => 122x122 px | bg.jpg 1440x900 px`
 
 #### Demo: http://html5up.net/uploads/demos/identity/
-
-## Screenshot
-
-![Identity Screenshot](http://img15.hostingpics.net/pics/363213identityscreenshot.jpg)
