@@ -9,7 +9,7 @@ For Pico CMS >= 2.0 add to config/config.yml
 
 `theme: identity`
 
-(If the file does not excist, create it. For more info see config/config.yml.template)
+(If the file does not exist, create it. For more info see config/config.yml.template)
 
 For the content download our `index.md`, upload it in the content folder and make your changes.
 
@@ -37,4 +37,4 @@ Recommended Sizes:
 
 `avatar.jpg => 122x122 px | bg.jpg 1440x900 px`
 
-#### Demo: http://html5up.net/uploads/demos/identity/
+#### [Demo](https://html5up.net/uploads/demos/identity/)
